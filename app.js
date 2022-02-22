@@ -8,7 +8,7 @@ const numeri = [];
 
 while (numeri.length < 5) {
     const numero = getRandomInt(1, 100);
-    
+
     if (!numeri.includes(numero)) { 
         numeri.push(numero);
     }
@@ -20,9 +20,9 @@ let numeriIndovinati = [];
 
 alert(numeri)
 
-const myTimeout = setTimeout(getUserNumber(numeri), 15000);
+const myTimeout = setTimeout(getUserNumber, 5000);
 
-function getUserNumber (numeri) {
+function getUserNumber () {
     for (i = 0; i < 5; i++) {
         const numeroUtente = parseInt(prompt("inserisci un numero"));
         if (numeri.includes(numeroUtente)) {
@@ -33,4 +33,35 @@ function getUserNumber (numeri) {
 
 
 
-console.log(numeriIndovinati)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
